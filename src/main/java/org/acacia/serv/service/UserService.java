@@ -9,4 +9,6 @@ import java.util.List;
 
 public interface UserService extends IService<UserEntity> {
     public List<UserEntity> page();
+
+    public UserVo detail(Integer id);
 }
